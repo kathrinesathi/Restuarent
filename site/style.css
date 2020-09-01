@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins'
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    color:Black;
+    margin-bottom:30px;
+}
+
+p{
+    padding: 30px 25px 25px 25px;
+    font-size:15px;
+    position:relative;
+}
+.section{
+    background-color:darkgray;
+    border: 2px solid black;
+    margin-top:20px;
+    margin-right: 20px;
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+}
+
+span{
+    font-size: 20px;
+    width:150px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    float:right;  top :0; right: 0; margin: 0;
+    position: absolute;
+}
+#span1 {
+    background-color:pink;
+}
+#span2{
+  background-color:rgb(185, 97, 97);
+}
+#span3{
+  background-color:rgb(238, 204, 111);
+}
+
+.row{
+    width:100%;
+}
+/* Desktop PC view */
+
+@media (min-width: 992px) {
+ 
+    .col-lg-4 {
+      width: 33.33%;
+      float: left;
+      }
+  }
+  
+  /* Tablet PC view */
+  @media (min-width: 768px) and (max-width: 991px) {
+   
+    .col-md-6 {
+      width: 50%;
+      float: left;
+    }
+    .col-sm-12 {
+      width: 100%;
+      float: left;
+    }
+  }
+  /* Cell phone view */
+  @media (max-width: 767px)  {
+    
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+  }
